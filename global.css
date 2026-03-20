@@ -70,13 +70,14 @@ table{
   }
   
   #hero{
-    width: 80%;
+    width: 90%;
     margin: auto;
+    min-height: auto,
     
   }
   
   #hero h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   
 .about-btn-wrapper{
@@ -90,6 +91,12 @@ table{
 #menu table{
   border-spacing: 1em, 2em;
 }
+
+  
+#menu td,
+  #menu th{
+  padding: 2em;
+  }
 
 .featured-dishes-container{
   display: grid;
@@ -146,6 +153,7 @@ table{
 
  footer{
     background: none;
+  }
 }
 
 
