@@ -1,4 +1,5 @@
 header{
+  width: 100%;
   background: #fff;
   display: grid;
   grid-template-columns: repeat(1 1fr);
