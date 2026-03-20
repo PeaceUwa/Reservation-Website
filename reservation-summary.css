@@ -1,0 +1,26 @@
+/*Lahout */
+
+
+#reservation-summary{
+  background: hsla(0, 100%, 99%, 1);
+  border-radius: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#reservation-summary table{
+  table-layout: auto;
+  border-spacing: .5em 2em;
+}
+
+
+#reservation-summary td,
+#reservation-summary th{
+  padding: .2em;
+}
+
+
+
+/*Typography */
+#reservation-summary caption {
+  font-weight: 700;
+}

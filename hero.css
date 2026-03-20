@@ -1,0 +1,85 @@
+/* Layout */
+
+#hero{
+  
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("interior.jpeg");
+  min-height: auto;
+  padding: 1em;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
+.hero-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  
+  
+  #hero button{
+    min-height: 40px;
+    min-width: 110px;
+    text-align: center;
+    background: #FF2A2A;
+    border: none;
+    border-radius: 2em;
+    font-size: 1rem;
+    padding-inline: 1em;
+    font-weight: 300;
+    transition: color .75s ease;
+  }
+  
+  #hero button:hover{
+    color: #fff;
+    
+  }
+  
+  #hero a{
+    color: #fff;
+    transition: color 0.75s ease;
+    
+  }
+  
+  #hero a:link{
+    color: #fff;
+  }
+
+#hero a:visited{
+   color:rgba(232, 250, 255, 1);
+}
+  
+#hero a:hover,
+#hero a:focus{
+  color: #FF2A2A;
+  
+}
+
+.hero a:active{
+  color: rgba(109, 6, 6, 1);
+  
+}
+  /* Typography */
+  #hero{
+  color: #FFF;
+  }
+  
+  #hero h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    
+  }
+  
+  #hero p{
+    font-weight: 500;
+  }
+  

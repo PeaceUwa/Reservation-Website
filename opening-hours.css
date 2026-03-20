@@ -1,0 +1,19 @@
+#opening-hours{
+  background: hsla(0, 100%, 99%, 1);
+  border-radius: 2em;
+}
+
+#opening-hours table{
+  table-layout: auto;
+  border-spacing: 1em, 2em;
+}
+
+#opening-hours td,
+#opening-hours th{
+  padding: 1em;
+}
+
+/* Typography */
+#opening-hours caption{
+  font-weight: 700;
+}

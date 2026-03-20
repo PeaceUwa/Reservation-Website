@@ -1,0 +1,46 @@
+header{
+  background: #fff;
+  display: grid;
+  grid-template-columns: repeat(1 1fr);
+  margin-bottom: 8em;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+header nav{
+  padding-inline: 1.5em;
+}
+
+
+header ul{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background: white;
+ padding: 0;
+}
+
+header a{
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+header a:link{
+  
+}
+
+header a:visited{
+  color: rgba(126, 12, 183, 1);
+}
+
+header a:hover,
+header a:focus{
+  color: rgba(101, 56, 255, 1);
+  
+}
+
+header a:active{
+  color: rgba(219, 10, 10, 1);
+}

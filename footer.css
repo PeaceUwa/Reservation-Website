@@ -1,0 +1,12 @@
+footer{
+  background: hsla(0, 100%, 97%, 1);
+  padding: 1em;
+  
+  
+}
+
+#copyright{
+  margin-top: 250px;
+  border-top: 2px solid gray;
+  text-align: center;
+}

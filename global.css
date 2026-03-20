@@ -1,0 +1,145 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+   /* padding: 1em */
+    width: 100%;
+    margin: auto;
+    
+ 
+}
+
+
+section{
+  margin-bottom: 7em;
+}
+
+
+main{
+  padding: 1em;
+}
+
+img{
+  width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+ul{
+  list-style: none;
+}
+
+table{
+  padding: 1em;  
+}
+
+
+table{
+  border-collapse: separate;
+}
+
+
+@media(min-width:768px){
+  header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  header img{
+    width: 50%;
+  }
+  
+  header ul{
+    width: 50%;
+    flex-direction: column;
+  }
+  
+  #hero{
+    width: 80%;
+    margin: auto;
+    
+  }
+  
+  #hero h1{
+    font-size: 2.5rem;
+  }
+  
+.about-btn-wrapper{
+  display: flex;
+  gap: 2em;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#menu table{
+  border-spacing: 1em, 2em;
+}
+
+.featured-dishes-container{
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+}
+
+.card-5{
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+#reservation-section{
+  width: 95%;
+}
+
+#reservation-form{
+  width: 100%;
+  padding: 1em;
+}
+ 
+ #reservation-summary{
+   width: 96%;
+   margin: auto;
+ }
+ 
+ 
+}
+
+@media(min-width: 1024px){
+  
+  
+  
+  
+  .featured-dishes-container{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 3em;
+  }
+  
+  
+  
+  #box-3{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap:2em;
+    background: mintcream;
+    padding-bottom: 70px;
+    border-bottom: 3px solid gray;
+  }
+  
+  #copyright{
+    border-top: none;
+  }
+}
+
+
